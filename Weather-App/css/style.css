@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+}
+
+h1, h3 {
+    color:   #222;
+    text-shadow: 2px 2px 4px #777;
+}
+
+.btn {
+    background-color: #555;
+    color:  #eee;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 5px 5px 5px #888888;
+    padding: 5px 5px 5px 5px;
+}
+
+a:hover, a:focus {
+	box-shadow: 0 1px #e74c3c;
+}
+
+a {
+    color: #eee;
+}
+
+.box {
+   padding: 20px;
+}
