@@ -31,7 +31,8 @@ var quotes = [
 "You can do and be anything you set your mind to",
 "No one cares, work harder",
 "Dude, suckin' at something is the first step at being sorta good at something. - Adventure Time's Jake",
-"My experience is what I agree to attend to. - William James"
+"My experience is what I agree to attend to. - William James",
+"Life is tough my darling, but so are you - Stephanie Bennett Henry"
 ]
 
 function newQuote(){
