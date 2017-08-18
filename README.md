@@ -17,3 +17,6 @@ An inspiring no-nonsense Dashboard for a goal driven you
 - [ ] Facebook birthday/life event feed
 - [ ] WGU GPA Calculator
 - [ ] Inspiring music or motivational video
+- [ ] Weight tracker - input weight output graph in metric
+- [ ] Pomodoro timer
+
