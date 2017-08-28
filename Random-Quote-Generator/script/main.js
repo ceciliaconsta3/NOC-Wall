@@ -32,7 +32,8 @@ var quotes = [
 "No one cares, work harder",
 "Dude, suckin' at something is the first step at being sorta good at something. - Adventure Time's Jake",
 "My experience is what I agree to attend to. - William James",
-"Life is tough my darling, but so are you - Stephanie Bennett Henry"
+"Life is tough my darling, but so are you - Stephanie Bennett Henry",
+"It is good to have an end to journey towards, but it is the journey that matters, in the end. - Ursula K. Le Guin"
 ]
 
 function newQuote(){
