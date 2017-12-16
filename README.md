@@ -18,5 +18,5 @@ An inspiring no-nonsense Dashboard for a goal driven you
 - [ ] WGU GPA Calculator
 - [ ] Inspiring music or motivational video
 - [ ] Weight tracker - input weight output graph in metric
-- [ ] Pomodoro timer
+- [ ] Pomodoro timer that saves each entry as a record in a project
 
