@@ -33,7 +33,8 @@ var quotes = [
 "Dude, suckin' at something is the first step at being sorta good at something. - Adventure Time's Jake",
 "My experience is what I agree to attend to. - William James",
 "Life is tough my darling, but so are you - Stephanie Bennett Henry",
-"It is good to have an end to journey towards, but it is the journey that matters, in the end. - Ursula K. Le Guin"
+"It is good to have an end to journey towards, but it is the journey that matters, in the end. - Ursula K. Le Guin",
+"Failure is simply the opportunity to begin again, this time more intelligently. - Henry Ford"
 ]
 
 function newQuote(){
