@@ -1,0 +1,43 @@
+body {
+    color: white; 
+    font-size: 24px;
+}
+
+.container-fluid {
+    /*background: rgb(0,153,115);*/
+    background: linear-gradient(to bottom right, rgb(0,153,153),rgb(26,255,255));
+    background: -moz-linear-gradient(to bottom right, rgb(0,153,153),rgb(26,255,255));
+    background: -o-linear-gradient(to bottom right, rgb(0,153,153),rgb(26,255,255));
+    background: -webkit-linear-gradient(to bottom right, rgb(0,153,153),rgb(26,255,255));
+    height: 100%; /* for browsers that don't use vh */
+    height: 100vh;
+    width: auto;
+}
+
+.vertical-center {
+    min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one */
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0;
+    line-height: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+footer p {
+    font-size: 1.2rem;
+}
+
+.heart-icon { color: #f77; }
+
+.social-icons {
+  list-style: none;
+  display: inline-flex;
+}
