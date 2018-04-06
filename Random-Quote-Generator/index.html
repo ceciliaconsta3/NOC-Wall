@@ -5,15 +5,16 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>Work Harder | Random Quote Generator</title>
-		<link rel="shortcut icon icon" type="image/x-icon" href="images/favicon.ico" />
+		<title>Random Quote Generator</title>
+		<link rel="shortcut icon icon" type="image/x-icon" href="favicon.ico" />
 		<!-- Bootstrap-->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" async></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" async></script>
 		<!--Custom elements -->
 		<link rel="stylesheet" href="styles.css">
-		<script src="main.js"></script>
+
 
 		<!--TODO: Twitter Implementation-->
 		<!--<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>-->
@@ -31,18 +32,31 @@
 	</head>
 
 	<body>
-		<div class="container-fluid text-center">
-			
-			<section class="row vertical-center">
-				<div class="col-md-4 col-sm-4 left-side">
-					<h1>Work Harder</h1>
-					<h2>Random Quote Generator</h2>		
-					<button class="btn btn-default btn-lg" onclick="newQuote()">New Quote</button>
+		<div class="container-fluid text-center">	
+			<section class="vertical-center">
+				<div class="container">
+					<h1>Random Quote Generator</h1>
+					<p id="quoteDisplay"></p>
+					<button id="quote-btn" class="btn btn-default btn-lg">New Quote</button>
+		<!-- Footer and Social Icons -->
+		<footer>
+				<div class="btn-group social-icons">
+					<a href="https://www.freecodecamp.com/ceciliaconsta3" target="_blank" class="btn"><i class="fa fa-fire fa-2x"></i></a>
+					<a href="https://www.github.com/ceciliaconsta3" target="_blank" class="btn"><i class="fa fa-github fa-2x"></i></a>
+					<a href="https://codepen.io/ceciliaconsta3/" target="_blank" class="btn"><i class="fa fa-codepen fa-2x"></i></a>
+					<a href="https://linkedin/in/ceciliaconsta3/" target="_blank" class="btn"><i class="fa fa-linkedin fa-2x"></i></a>
+					<a href="https://twitter.com/ceciliaconsta3/" target="_blank" class="btn"><i class="fa fa-twitter fa-2x"></i></a>
 				</div>
-				<div class="col-md-8 col-sm-8 right-side">
-					<h3>Coming Soon</h3>
-					<div id="quoteDisplay"></div>
+				<!-- Credits -->
+				<div class="copyright">
+					<p>&copy; 2018 Made with <span class="heart-icon">❤</span> by Cecilia Constantine</p>
 				</div>
+				</footer>
+
+
+				</div>
+
+	
 			</section>
 			<!--
 				TODO: Twitter implementation
@@ -50,5 +64,6 @@
 			-->
 		</div>
 
-	</body>
+		<script src="main.js"></script>
+	</body> 
 </html>
